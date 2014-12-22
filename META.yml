@@ -17,12 +17,13 @@ name: DateTimeX-Immutable
 provides:
   DateTimeX::Immutable:
     file: lib/DateTimeX/Immutable.pm
-    version: '0.34'
+    version: '0.35'
   DateTimeX::Role::Immutable:
     file: lib/DateTimeX/Role/Immutable.pm
-    version: '0.34'
+    version: '0.35'
 requires:
   Carp: '1.0000'
+  Class::Method::Modifiers: '2.00'
   DateTime: '1.00'
   Role::Tiny: '1.000'
   Sub::Install: '0.900'
@@ -32,4 +33,4 @@ resources:
   bugtracker: https://github.com/mvgrimes/perl-datetimex-immutable/issues
   license: http://dev.perl.org/licenses/
   repository: https://github.com/mvgrimes/perl-datetimex-immutable
-version: '0.34'
+version: '0.35'
